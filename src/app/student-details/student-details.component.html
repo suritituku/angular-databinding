@@ -1,0 +1,28 @@
+    <h2> {{errMsg}}</h2>
+<div class="float-container">
+    <h1 class="fll">student-details Component!</h1>
+    <div class="float-child1">
+      <div class="green">
+        
+        <ul *ngFor="let x of students">
+            <li >
+                {{x.id}}
+    
+            </li>
+        </ul>
+
+      </div>
+    </div>
+    
+    <div class="float-child">
+      <div class="blue">
+        <ul *ngFor="let x of students">
+            <li>
+                {{x.name}} - {{x.course}}
+    
+            </li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>

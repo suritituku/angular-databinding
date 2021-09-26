@@ -1,0 +1,33 @@
+.my-container{
+    background-color: red;
+    border: 3px solid #fff;
+    padding: 20px;
+ }
+ .fll{
+    color: white;
+
+}
+ 
+ .float-container {
+    border: 3px solid #fff;
+    padding-left: 50px;
+    background-color: black;
+    width: 500px;
+    height: 350px;
+}
+
+.float-child1 {
+    width: 50px;
+    float: left;
+    padding: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(20, 107, 220);
+}  
+
+.float-child {
+    width: 180px;
+    float: left;
+    padding: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: crimson;
+}  
